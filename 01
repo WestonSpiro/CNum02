@@ -5,9 +5,11 @@ int main(void){
     int max = -100000;
     int Evens = 0, Odds = 0;
     int sum = 0;
+    int counter = 0;
     scanf("%d", &number);
     while (number != -1){
         sum += number;
+        counter += 1;
         if (number % 2)
             Odds++;
         else
@@ -19,5 +21,6 @@ int main(void){
     printf("Even numbers: %d\n", Evens);
     printf("Odd numbers: %d\n", Odds);
     printf("The largest number is %d\n", max);
+    printf("Total numbers input: %d\n", counter);
     return 0;
 }
