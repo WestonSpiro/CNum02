@@ -5,6 +5,7 @@ int main(void){
     int max = -100000;
     int Evens = 0, Odds = 0;
     int sum = 0;
+    int average = 0;
     int counter = 0;
     scanf("%d", &number);
     while (number != -1){
@@ -18,6 +19,7 @@ int main(void){
             max = number;
         scanf("%d", &number);}
     printf("The sum is %d\n", sum);
+    printf("The average is %d\n", sum/counter);
     printf("Even numbers: %d\n", Evens);
     printf("Odd numbers: %d\n", Odds);
     printf("The largest number is %d\n", max);
