@@ -7,6 +7,8 @@ int main(void){
     int sum = 0;
     int average = 0;
     int counter = 0;
+    printf("Enter number then press enter\n");
+    printf("Enter -1 to terminate execution\n");
     scanf("%d", &number);
     while (number != -1){
         sum += number;
